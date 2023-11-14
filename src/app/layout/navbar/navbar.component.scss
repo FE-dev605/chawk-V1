@@ -1,0 +1,30 @@
+.flex-item-center {
+  display: flex;
+  align-items: center;
+}
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 1.75rem;
+  padding-left: 1.5rem;
+  flex-wrap: nowrap;
+  .nav-list {
+    display: flex;
+    justify-content: start;
+    margin-left: 1.5rem;
+    .nav-item {
+      padding: 10px;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      text-transform: capitalize;
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "header":
+    {
+        "image":"https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F258%2Flogo-final2x.png&w=1920&q=75",
+        "item":[
+            "demos",
+            "men wear",
+            "women wear",
+            "casual wear",
+            "search",
+            "shop",
+            "pages"
+        ]
+    }
+}
