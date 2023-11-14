@@ -33,3 +33,23 @@
         }
     }
 }
+
+.img-rounded {
+    border-radius: 90px;
+}
+
+.img-sm {
+    width: 50px;
+}
+
+.bg-gray-350 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(233 236 239/var(--tw-bg-opacity));
+}
+
+.list-item-container {
+    background-color: rgb(249 249 249/1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}

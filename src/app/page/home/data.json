@@ -1,0 +1,47 @@
+{
+    "catergory": [
+        {
+            "name": "women",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "watch",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "sunglass",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "sport",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "sneaker",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "men",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "kids",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        },
+        {
+            "name": "bags",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "quantity": 27
+        }
+    ],
+    "flashSale": [
+        "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F177%2Fj.png&w=1920&q=100"
+    ]
+}
