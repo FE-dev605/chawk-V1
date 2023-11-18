@@ -1,38 +1,7 @@
-<!-- <div class="container-fluid">
-    <div class="row">
-        <div class="col-3">
-            <ul class="list-group">
-                <li class="list-group-item list-item-container" *ngFor="let item of listCategory">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <div class="d-flex align-items-center">
-                            <img src="{{item.url}}" class="img-rounded img-sm" alt="{{item.name}}">
-                            <div class="ms-2 fs-875rem text-capitalize fw-light">{{item.name}}</div>
-                        </div>
-                        <div>
-                            <span class="badge bg-gray-350 fw-light text-dark">
-                                {{item.quantity}}
-                            </span>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
-                                class="hidden text-sm 2xl:block text-heading" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col-9">
-
-        </div>
-    </div>
-</div> -->
 <div class="grid-container">
     <div class="grid-item-1">
         <div class="category-container">
-            <div class="item"  *ngFor="let item of listCategory">
+            <div class="item" *ngFor="let item of listCategory">
                 <div class="flex-center justify-content-between">
                     <div class="flex-center">
                         <img src="{{item.url}}" class="img-rounded img-sm" alt="{{item.name}}">
@@ -55,6 +24,17 @@
         </div>
     </div>
     <div class="grid-item-2">
-     
+        <div class="slider">
+            <div class="list">
+                <div class="item" *ngFor="let item of listCarousel">
+                    <img src="{{item}}" alt="">
+                </div>
+            </div>
+            <ul class="dots">
+                <li class="active" (click)="onClick(0)"></li>
+                <li (click)="onClick(1)"></li>
+                <li (click)="onClick(2)"></li>
+            </ul>
+        </div>
     </div>
 </div>

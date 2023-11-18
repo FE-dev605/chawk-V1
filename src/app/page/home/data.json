@@ -7,41 +7,46 @@
         },
         {
             "name": "watch",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F32%2Fwatch.png&w=64&q=75",
             "quantity": 27
         },
         {
             "name": "sunglass",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F31%2Fsunglass.png&w=64&q=75",
             "quantity": 27
         },
         {
             "name": "sport",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F30%2Fsports.png&w=64&q=75",
             "quantity": 27
         },
         {
             "name": "sneaker",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F29%2Fsneekers.png&w=64&q=75",
             "quantity": 27
         },
         {
             "name": "men",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F28%2Fmen.png&w=64&q=75",
             "quantity": 27
         },
         {
             "name": "kids",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F27%2Fkids.png&w=64&q=75",
             "quantity": 27
         },
         {
             "name": "bags",
-            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F33%2Fwomen.png&w=128&q=75",
+            "url": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F26%2Fbags.png&w=64&q=75",
             "quantity": 27
         }
     ],
     "flashSale": [
         "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F177%2Fj.png&w=1920&q=100"
+    ],
+    "carousel":[
+        "https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fhero%2Ftwo%2Fbanner-1.jpg&w=1920&q=100",
+        "https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fhero%2Ftwo%2Fbanner-2.jpg&w=1920&q=100",
+        "https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fhero%2Ftwo%2Fbanner-3.jpg&w=1920&q=100"
     ]
 }
