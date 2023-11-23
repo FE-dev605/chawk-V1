@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   listTopProduct: any;
   listCollection: string[] = [];
   listFeature: any[] = [];
-
+  listSeller: any[] = [];
   constructor(
     private elRef: ElementRef
   ) { }
@@ -37,6 +37,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.listCollection = data?.collection?.url;
     this.currentImage = data?.product?.topProduct[0].image;
     this.listFeature = data?.feature;
+    this.listSeller = data?.seller
     this._initListTopProduct();
   }
   private _initSliderCollection() {

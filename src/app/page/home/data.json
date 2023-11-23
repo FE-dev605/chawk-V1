@@ -116,5 +116,67 @@
                 "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F184%2FSunglasess-12-1.jpg&w=1920&q=75"
             ]
         }
+    ],
+    "seller":[
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        },
+        {
+            "name": "Zara Monte Carlo",
+            "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+            "image": "https://chawkbazar.redq.io/_next/image?url=https%3A%2F%2Fchawkbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F236%2Fkids-1.jpg&w=3840&q=100",
+            "price": "$80.00 - $100.00"
+        }
     ]
 }

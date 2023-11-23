@@ -84,12 +84,13 @@
         </div> -->
     </div>
 </div>
-
+<!-- Collection -->
 <div class="collection-container mt-5">
     <div class="collection__item" *ngFor="let item of listCollection">
         <img [src]="item" alt="">
     </div>
 </div>
+<!-- Feature -->
 <div class="feature-category__container mt-5">
     <div class="feature-category__content" *ngFor="let item of listFeature">
         <div class="content__title">
@@ -98,5 +99,12 @@
         <div class="content__img">
             <img [src]="itm" alt="" srcset="" *ngFor="let itm of item.img">
         </div>
+    </div>
+</div>
+
+<!-- Best Seller -->
+<div class="seller__container mt-5">
+    <div class="seller__content" *ngFor="let item of listSeller">
+
     </div>
 </div>
