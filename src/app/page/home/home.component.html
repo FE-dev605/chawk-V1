@@ -101,10 +101,156 @@
         </div>
     </div>
 </div>
-
+<div class="plr mt-5 mb-5">
+    <hr>
+</div>
 <!-- Best Seller -->
-<div class="seller__container mt-5">
+<div class="seller__header plr">
+    Best Sellers
+</div>
+<div class="seller__container mt-4">
     <div class="seller__content" *ngFor="let item of listSeller">
+        <img class="seller__img" [src]="item?.image" alt="" srcset="">
+        <div class="seller__txt">
+            <div class="seller__title">
+                {{item?.name}}
+            </div>
+            <div class="seller__description">
+                {{item?.description}}
+            </div>
+            <div class="seller__price">
+                {{item?.price}}
+            </div>
+        </div>
 
+    </div>
+</div>
+<!-- Hot sales -->
+<div class="hot__container plr mt-5">
+    <img src="https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fbanner%2Fbanner-1.jpg&w=3840&q=100"
+        width="100%" height="auto">
+</div>
+
+<!-- New Arrival -->
+<div class="seller__header plr">
+    New Arrivals
+</div>
+<div class="seller__container mt-4">
+    <div class="seller__content" *ngFor="let item of listSeller">
+        <img class="seller__img" [src]="item?.image" alt="" srcset="">
+        <div class="seller__txt">
+            <div class="seller__title">
+                {{item?.name}}
+            </div>
+            <div class="seller__description">
+                {{item?.description}}
+            </div>
+            <div class="seller__price">
+                {{item?.price}}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="plr mt-5 mb-5">
+    <hr>
+</div>
+<!-- Top Brand -->
+
+<!-- Policy -->
+<div class="policy__container">
+    <div class="policy__content">
+        <div class="policy__item">
+            <img class="policy__img" src="https://chawkbazar.redq.io/assets/images/feature/saving.svg" alt="">
+            <div class="policy__context">
+                <h3>Guaranteed Savings</h3>
+                <div class="policy__description">
+                    If you don’t make your membership fee in savings, we’ll refund the difference
+                </div>
+            </div>
+        </div>
+        <div class="policy__item">
+            <img class="policy__img" src="https://chawkbazar.redq.io/assets/images/feature/risk-free.svg" alt="">
+            <div class="policy__context">
+                <h3>Try it risk-free</h3>
+                <div class="policy__description">
+                    If you don’t make your membership fee in savings, we’ll refund the difference
+                </div>
+            </div>
+        </div>
+        <div class="policy__item">
+            <img class="policy__img" src="https://chawkbazar.redq.io/assets/images/feature/delivery.svg" alt="">
+            <div class="policy__context">
+                <h3>Super Fast Delivery</h3>
+                <div class="policy__description">
+                    If you don’t make your membership fee in savings, we’ll refund the difference
+                </div>
+            </div>
+        </div>
+        <div class="policy__item">
+            <img class="policy__img" src="https://chawkbazar.redq.io/assets/images/feature/product.svg" alt="">
+            <div class="policy__context">
+                <h3>1000+ products priced at cost</h3>
+                <div class="policy__description">
+                    If you don’t make your membership fee in savings, we’ll refund the difference
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Season -->
+<div class="season__container mt-5">
+    <div class="season__content">
+        <div class="season__item">
+            <div class="img__container">
+                <img class="season__img"
+                    src="https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fcollection%2F1.jpg&w=1200&q=75"
+                    alt="">
+                <button class="season__button">View collection</button>
+
+            </div>
+            <div class="context__container mt-4">
+                <h3>
+                    New Spring Knits
+                </h3>
+                <div class="season__description">
+                    Endlessly versatile new styles that say yes to spring. The season’s looking bright.
+                </div>
+            </div>
+        </div>
+        <div class="season__item">
+            <div class="context__container mb-4">
+                <h3>
+                    Down To The Core
+                </h3>
+                <div class="season__description">
+                    Endlessly versatile new styles that say yes to spring. The season’s looking bright.
+                </div>
+            </div>
+            <div class="img__container">
+                <img class="season__img"
+                    src="https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fcollection%2F2.jpg&w=1200&q=75"
+                    alt="">
+                <button class="season__button">View collection</button>
+            </div>
+        </div>
+        <div class="season__item">
+            <div class="img__container">
+                <img class="season__img"
+                    src="https://chawkbazar.redq.io/_next/image?url=%2Fassets%2Fimages%2Fcollection%2F3.jpg&w=1200&q=75"
+                    alt="">
+                <button class="season__button">View collection</button>
+            </div>
+            <div class="context__container mt-4">
+                <h3>
+                    New Winter Knits
+                </h3>
+                <div class="season__description">
+                    Endlessly versatile new styles that say yes to spring. The season’s looking bright.
+                </div>
+            </div>
+        </div>
     </div>
 </div>

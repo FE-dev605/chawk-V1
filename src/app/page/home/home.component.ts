@@ -1,5 +1,10 @@
 import { AfterViewInit, Component, ElementRef, OnInit } from '@angular/core';
 import * as data from './data.json'
+const HANDLETYPE = {
+  topProduct: "topProduct",
+  seller: 'seller'
+};
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -37,8 +42,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.listCollection = data?.collection?.url;
     this.currentImage = data?.product?.topProduct[0].image;
     this.listFeature = data?.feature;
-    this.listSeller = data?.seller
     this._initListTopProduct();
+    this._initListSeller();
   }
   private _initSliderCollection() {
     this.slider = this.elRef.nativeElement.querySelector('.slider .list');
@@ -53,15 +58,35 @@ export class HomeComponent implements OnInit, AfterViewInit {
   private _initListTopProduct() {
     this.listTopProduct = data?.product?.topProduct;
     this.listTopProduct.map((itm: any) => {
-      return itm.description = this._handleLongString(itm.description);
+      return itm.description = this._handleLongString(itm.description, HANDLETYPE.topProduct);
     })
   }
 
-  private _handleLongString(txt: string): string {
-    if (txt.length - 1 > 37) {
-      return txt.slice(-txt.length, 37) + '...';
+  private _initListSeller() {
+    this.listSeller = data?.seller
+    this.listSeller.map((itm: any) => {
+      return itm.description = this._handleLongString(itm.description, HANDLETYPE.seller);
+    })
+  }
+
+  private _handleLongString(txt: string, type: string): string {
+
+    const res: { [key: string]: any } = {
+      'topProduct': () => {
+        if (txt.length - 1 > 37) {
+          return txt.slice(-txt.length, 37) + '...';
+        }
+        return txt;
+      },
+      'seller': () => {
+        if (txt.length - 1 > 33) {
+          return txt.slice(-txt.length, 33) + '...';
+        }
+        return txt;
+      }
     }
-    return txt;
+    return res[type]()
+
   }
 
   private _reloadSlider() {
